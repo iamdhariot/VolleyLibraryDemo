@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <!--<ImageView
+        android:id="@+id/image_view_hero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        />-->
+    <TextView
+        android:id="@+id/text_view_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hero name here"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:padding="10dp"
+
+        />
+    <TextView
+        android:id="@+id/text_view_image_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="url here"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:autoLink="web"
+        />
+
+</LinearLayout>
